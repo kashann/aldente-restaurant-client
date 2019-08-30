@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+  <item    
+    android:id="@+id/topMenu_food"
+    app:showAsAction="always|withText"
+    android:icon="@mipmap/food_white_48"
+    android:title="@string/food" />
+  <item
+    android:id="@+id/topMenu_drinks"
+    app:showAsAction="always|withText"
+    android:icon="@mipmap/wine_white_48"
+    android:title="@string/drinks" />
+  <item
+    android:id="@+id/topMenu_dessert"
+    app:showAsAction="always|withText"
+    android:icon="@mipmap/dessert"
+    android:title="@string/dessert" />
+  <item
+    android:id="@+id/topMenu_empty"
+    app:showAsAction="always"
+    android:enabled="false"
+    android:title="⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀" />
+  <item
+    android:id="@+id/topMenu_service"
+    app:showAsAction="always|withText"
+    android:layout_marginLeft="200dp"
+    android:icon="@mipmap/service_white_48dp"
+    android:title="@string/service" />
+  <item
+    android:id="@+id/topMenu_bill"
+    app:showAsAction="always|withText"
+    android:icon="@mipmap/bill_white_48dp"
+    android:title="@string/bill" />
+  <item
+    android:id="@+id/topMenu_cancel"
+    app:showAsAction="always|withText"
+    android:icon="@mipmap/cancel_white_48dp"
+    android:title="@string/cancel" />
+  <item
+    android:id="@+id/topMenu_order"
+    app:showAsAction="always|withText"
+    android:icon="@mipmap/order_white_48"
+    android:title="@string/your_order" />
+  <item
+    android:id="@+id/overflowMenu"
+    app:showAsAction="always"
+    android:icon="@mipmap/more_vert_white_48">
+    <menu>
+      <item
+          android:id="@+id/topMenu_about"
+          app:showAsAction="always|withText"
+          android:icon="@mipmap/info_black_48"
+          android:title="@string/aboutTitle" />
+      <item
+        android:id="@+id/topMenu_admin"
+        app:showAsAction="always|withText"
+        android:icon="@mipmap/settings_black_48"
+        android:title="@string/adminSettings" />
+    </menu>
+  </item>
+</menu>

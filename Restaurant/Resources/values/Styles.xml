@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+  <style name="MyTheme.Splash" parent ="Theme.AppCompat.Light.NoActionBar">
+    <item name="android:windowBackground">@drawable/Splash</item>
+    <item name="android:windowNoTitle">true</item>
+    <item name="android:windowFullscreen">true</item>
+  </style>
+  <style name="MyTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    <item name="windowNoTitle">true</item>
+    <item name="windowActionBar">false</item>
+    <item name="android:windowFullscreen">true</item>
+    <item name="colorPrimary">@color/colorPrimary</item>
+    <item name="colorPrimaryDark">@color/colorSecondary</item>
+    <item name="colorAccent">@color/splash</item>
+  </style>
+  <style name="MyToolbar" parent="Theme.AppCompat.Light">
+    <item name="android:textColorPrimary">@color/white</item>
+    <item name="android:textColorSecondary">@color/white</item>
+    <item name="actionMenuTextColor">@color/white</item>
+  </style>
+  <style name="MyPopupToolbar" parent="ThemeOverlay.AppCompat.Light">
+    <item name="android:textColorPrimary">@color/dark_gray</item>
+  </style>
+  <style name="DialogAnimation">
+    <item name="android:windowEnterAnimation">@+anim/slide_up</item>
+    <item name="android:windowExitAnimation">@+anim/slide_right</item>
+  </style>
+</resources>

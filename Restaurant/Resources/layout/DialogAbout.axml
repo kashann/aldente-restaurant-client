@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/gradient_dialog"
+    android:dither="true"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:minWidth="600dp"
+    android:minHeight="600dp"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true">
+    <ImageView
+        android:src="@drawable/aldente"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/aboutImage" />
+    <TextView
+        android:text="@string/aboutTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_below="@id/aboutImage"
+        android:id="@+id/aboutTitle" />
+    <TextView
+        android:text="@string/aboutBody"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_below="@id/aboutTitle"
+        android:id="@+id/aboutBody" />
+    <Button
+        android:text="@string/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_below="@id/aboutBody"
+        android:id="@+id/aboutBack" />
+</RelativeLayout>

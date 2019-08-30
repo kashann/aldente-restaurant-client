@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">Restaurant</string>
+  <string name="your_order">Your order</string>
+  <string name="menu">Menu</string>
+  <string name="food">Food</string>
+  <string name="breakfast">Breakfast</string>
+  <string name="appetizer">Appetizer</string>
+  <string name="soup">Soups</string>
+  <string name="menus">Menus</string>
+  <string name="main_dishes">Main Dishes</string>
+  <string name="side_dishes">Side Dishes</string>
+  <string name="burgers">Burgers</string>
+  <string name="pizza">Pizza</string>
+  <string name="pasta">Pasta</string>
+  <string name="salads">Salads</string>
+  <string name="sushi">Sushi</string>
+  <string name="toppings">Toppings</string>
+  <string name="dessert">⠀Dessert</string>
+
+  <string name="drinks">Drinks</string>
+  <string name="water">Water</string>
+  <string name="soda">Soda</string>
+  <string name="fresh">Fresh Juice</string>
+  <string name="tea">Tea</string>
+  <string name="coffee">Coffee</string>
+  <string name="beer">Beer</string>
+  <string name="wineRed">Red Wine</string>
+  <string name="wineWhite">White Wine</string>
+  <string name="wineRose">Rose Wine</string>
+  <string name="cocktails">Cocktails</string>
+  <string name="spirits">Spirits</string>
+  <string name="champagne">Champagne</string>
+  
+  <string name="service">Service</string>
+  <string name="bill">Bill</string>
+  <string name="askBill">Check please!</string>
+  <string name="cancel">Cancel</string>
+  <string name="back">Back</string>
+  <string name="set">Set</string>
+  <string name="sync">Sync</string>
+  <string name="ok">OK</string>
+  <string name="password">Password</string>
+
+  <string name="minus">-</string>
+  <string name="plus">+</string>
+  <string name="one">1</string>
+  <string name="tableId">Table nr.</string>
+  <string name="waiterId">Waiter ID</string>
+  <string name="cancel">Cancel</string>
+  <string name="addToOrder">Add to your order</string>
+  <string name="observations">Observations</string>
+  <string name="tip">Tip</string>
+
+  <string name="sendOrder">Send order!</string>
+  <string name="cash">Cash</string>
+  <string name="card">Card</string>
+
+  <string name="aboutTitle">About Al Dente</string>
+  <string name="aboutBody">Al Dente restaurant solutions is offering a complete package of features, including the e-Menu, allowing restaurants to operate more efficiently and bring a new interactive experience for staff and customers alike. In addition, the features will allow restaurants to easily change the menu according to the requirements. You can find us at www.aldentesolutions.com</string>
+  <string name="adminSettings">ADMIN SETTINGS</string>
+</resources>

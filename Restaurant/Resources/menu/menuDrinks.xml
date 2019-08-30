@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+  <group android:checkableBehavior="single">
+    <item android:id="@+id/menu_drink_water" android:textColor="@color/white" android:icon="@mipmap/water" android:title="@string/water" />
+    <item android:id="@+id/menu_drink_soda" android:textColor="@color/white" android:icon="@mipmap/soda" android:title="@string/soda" />
+    <item android:id="@+id/menu_drink_fresh_juice" android:textColor="@color/white" android:icon="@mipmap/fresh" android:title="@string/fresh" />
+    <item android:id="@+id/menu_drink_tea" android:textColor="@color/white" android:icon="@mipmap/tea" android:title="@string/tea" />
+    <item android:id="@+id/menu_drink_coffee" android:textColor="@color/white" android:icon="@mipmap/coffee" android:title="@string/coffee" />
+    <item android:id="@+id/menu_drink_beer" android:textColor="@color/white" android:icon="@mipmap/beer" android:title="@string/beer" />
+    <item android:id="@+id/menu_drink_wine_red" android:textColor="@color/white" android:icon="@mipmap/wine" android:title="@string/wineRed" />
+    <item android:id="@+id/menu_drink_wine_white" android:textColor="@color/white" android:icon="@mipmap/wine" android:title="@string/wineWhite" />
+    <item android:id="@+id/menu_drink_wine_rose" android:textColor="@color/white" android:icon="@mipmap/wine" android:title="@string/wineRose" />
+    <item android:id="@+id/menu_drink_cocktails" android:textColor="@color/white" android:icon="@mipmap/wine_white_48" android:title="@string/cocktails" />    
+    <item android:id="@+id/menu_drink_spirits" android:textColor="@color/white" android:icon="@mipmap/spirits" android:title="@string/spirits" />
+    <item android:id="@+id/menu_drink_champagne" android:textColor="@color/white" android:icon="@mipmap/champagne" android:title="@string/champagne" />
+  </group>
+</menu>

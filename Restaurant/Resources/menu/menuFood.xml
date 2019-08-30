@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+  <group android:checkableBehavior="single">
+    <item android:id="@+id/menu_food_breakfast" android:textColor="@color/white" android:icon="@mipmap/breakfast" android:title="@string/breakfast" />
+    <item android:id="@+id/menu_food_appetizer" android:textColor="@color/white" android:icon="@mipmap/appetizer" android:title="@string/appetizer" />
+    <item android:id="@+id/menu_food_soup" android:textColor="@color/white" android:icon="@mipmap/soup" android:title="@string/soup" />
+    <item android:id="@+id/menu_food_menus" android:textColor="@color/white" android:icon="@mipmap/menus" android:title="@string/menus" />
+    <item android:id="@+id/menu_food_main_dishes" android:textColor="@color/white" android:icon="@mipmap/steak" android:title="@string/main_dishes" />
+    <item android:id="@+id/menu_food_side_dishes" android:textColor="@color/white" android:icon="@mipmap/nachos" android:title="@string/side_dishes" />
+    <item android:id="@+id/menu_food_burgers" android:textColor="@color/white" android:icon="@mipmap/burger" android:title="@string/burgers" />
+    <item android:id="@+id/menu_food_pizza" android:textColor="@color/white" android:icon="@mipmap/pizza" android:title="@string/pizza" />
+    <item android:id="@+id/menu_food_pasta" android:textColor="@color/white" android:icon="@mipmap/pasta" android:title="@string/pasta" />
+    <item android:id="@+id/menu_food_salads" android:textColor="@color/white" android:icon="@mipmap/salad" android:title="@string/salads" />
+    <item android:id="@+id/menu_food_sushi" android:textColor="@color/white" android:icon="@mipmap/sushi" android:title="@string/sushi" />
+    <item android:id="@+id/menu_food_toppings" android:textColor="@color/white" android:icon="@mipmap/pepper" android:title="@string/toppings" />
+  </group>
+</menu>

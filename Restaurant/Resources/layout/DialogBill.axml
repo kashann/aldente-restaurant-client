@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/gradient_dialog"
+    android:dither="true"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:minWidth="800dp"
+    android:minHeight="500dp"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true">
+    <ListView
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:focusable="false"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:id="@+id/lvOrder" />
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lvOrder">
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/lvOrder"
+            android:orientation="horizontal"
+            android:id="@+id/radioGroup">
+            <RadioButton
+                android:text="@string/cash"
+                android:textSize="25dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/colorPrimary"
+                android:id="@+id/rbCash" />
+            <RadioButton
+                android:text="@string/card"
+                android:textSize="25dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/colorPrimary"
+                android:id="@+id/rbCard" />
+        </RadioGroup>
+        <Spinner
+            style="@android:style/Widget.Holo.Light.Spinner"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_toRightOf="@id/radioGroup"
+            android:layout_below="@+id/lvOrder"
+            android:id="@+id/billSpinner" />
+        <Button
+            android:text="@string/cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|bottom"
+            android:layout_toRightOf="@id/billSpinner"
+            android:id="@+id/billCancel" />
+        <Button
+            android:text="@string/askBill"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|bottom"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@id/billCancel"
+            android:id="@+id/billSend" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"
+            android:textSize="35dp"
+            android:layout_marginTop="15dp"
+            android:layout_below="@+id/billSpinner"
+            android:id="@+id/billTotal" />
+    </RelativeLayout>
+</RelativeLayout>

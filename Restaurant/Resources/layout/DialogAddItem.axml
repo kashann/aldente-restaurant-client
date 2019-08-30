@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/gradient_dialog"
+    android:dither="true"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:minWidth="600dp"
+    android:minHeight="600dp"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true">
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="125dp"
+        android:layout_marginRight="125dp"
+        android:gravity="center_horizontal"
+        android:id="@+id/dialogImage" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_below="@id/dialogImage"
+        android:id="@+id/dialogName" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_below="@id/dialogName"
+        android:id="@+id/dialogDescription" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="right"
+        android:layout_marginLeft="50dp"
+        android:layout_below="@id/dialogDescription"
+        android:id="@+id/dialogPrice" />
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dialogPrice"
+        android:layout_marginLeft="125dp"
+        android:layout_marginRight="125dp"
+        android:layout_marginTop="10dp">
+        <Button
+            android:text="@string/minus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/btnDecreaseQuantity" />
+        <TextView
+            android:text="@string/one"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_toRightOf="@id/btnDecreaseQuantity"
+            android:id="@+id/dialogQuantity" />
+        <Button
+            android:text="@string/plus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_toRightOf="@id/dialogQuantity"
+            android:id="@+id/btnIncreaseQuantity" />
+        <Button
+            android:text="@string/cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_below="@id/btnIncreaseQuantity"
+            android:id="@+id/btnCancel" />
+        <Button
+            android:text="@string/addToOrder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_below="@id/btnIncreaseQuantity"
+            android:layout_toRightOf="@id/btnCancel"
+            android:id="@+id/btnAddToOrder" />
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/observations"
+            android:layout_gravity="center_horizontal"
+            android:layout_below="@id/btnCancel"
+            android:id="@+id/etObservations" />
+    </RelativeLayout>
+</RelativeLayout>
